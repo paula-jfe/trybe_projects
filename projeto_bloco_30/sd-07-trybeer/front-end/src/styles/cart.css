@@ -1,0 +1,6 @@
+.cart-btn {
+  align-items: center;
+  width: 100%;
+  padding: 2em;
+  cursor: not-allowed;
+}

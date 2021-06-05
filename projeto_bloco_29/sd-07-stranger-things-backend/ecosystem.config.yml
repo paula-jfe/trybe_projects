@@ -1,0 +1,11 @@
+apps:
+- name: app
+  script: ./index.js
+# Ativar o Modo Cluster;
+  exec_mode: cluster
+# Subir duas instâncias do processo;
+  instances: 2
+# Não assistir à alterações no diretório (modowatch desativado);
+  watch: false
+# Reiniciar o processo caso ele consuma mais de 200MB de memória.
+  max_memory_restart: 200M

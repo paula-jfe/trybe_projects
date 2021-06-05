@@ -1,0 +1,56 @@
+{
+  "requirements": [
+    {
+      "description": "1 - Crie uma página de login",
+      "bonus": false
+    },
+    {
+      "description": "2 - Crie uma página de registro de usuários",
+      "bonus": false
+    },
+    {
+      "description": "3 - Crie o menu top e menu side bar",
+      "bonus": false
+    },
+    {
+      "description": "4 - Criar tela de perfil do cliente",
+      "bonus": false
+    },
+    {
+      "description": "5 - Criar tela de produtos",
+      "bonus": false
+    },
+    {
+      "description": "6 - Criar tela de checkout",
+      "bonus": false
+    },
+    {
+      "description": "7 - Criar tela de meus pedidos",
+      "bonus": false
+    },
+    {
+      "description": "8 - Criar tela de detalhes pedidos",
+      "bonus": false
+    },
+    {
+      "description": "9 - Criar menu side bar para administrador",
+      "bonus": false
+    },
+    {
+      "description": "10 - Criar tela de perfil de administrador",
+      "bonus": false
+    },
+    {
+      "description": "11 - Criar tela de pedidos de admin",
+      "bonus": false
+    },
+    {
+      "description": "12 - Criar tela de detalhes pedidos do admininstrador",
+      "bonus": false
+    },
+    {
+      "description": "13 - A cobertura de testes unitários deve ser de no mínimo 90%",
+      "bonus": true
+    }
+  ]
+}

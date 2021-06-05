@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Block 6 Project</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <section class="top-bar">
+        <img class="facebook-logo" src="imgs/facebook-logo.png">
+            <form class="facebook-login">
+                <div class="form-group">
+                    <label class="labelHeader" id="user-email-phone-label">Email ou telefone</label>
+                    <input id="user-email-phone" class="" type="text" max-length="">
+                </div>
+                <div class="form-group">
+                    <label class="labelHeader" id="user-password-label">Senha</label>
+                    <input id="user-password"class="" type="password">
+                </div>
+                <div class="form-control">
+                    <button class="buttonLogin" id="button-login" type="submit">Entrar</button>
+                </div>
+            </form>
+        </section>
+    <section class="main-content">
+        <div class="mobile-content">
+            <div class="topPage">
+                <input id="mobile-email-phone" class="" type="text" max-length="">
+                <input id="mobile-password" class="" type="text" max-length="">
+                <button class="buttonLogin" id="button-login" type="submit">Entrar</button>
+                <hr class="hrOu">
+            </div>
+            <div class="bottomPage">
+
+            </div>
+        </div>
+        <div class="left-content">
+            <p id="facebook-slogan">O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</p>
+            <img id="facebook-networking" src="imgs/networking.png">
+        </div>
+        <div class="right-content">
+            <h1 class="open">Abra uma conta</h1>
+            <p class="quick-easy">É rápido e fácil.</p>
+            <form class="rightFormInputs">
+                <div class="nameLastName">
+                    <input class="formRight name" id="firstName" type="text" name="firstname" data-validate-field="firstname" placeholder="Nome">
+                    <input class="formRight name" id="lastName" type="text" name="lastname" data-validate-field="lastname" placeholder="Sobrenome">
+                </div>
+                <input class="formRight" id="phoneEmail" type="text" name="phone_email" data-validate-field="phone_email" placeholder="Celular ou email">
+                <input class="formRight" id="password" type="password" name="password" data-validate-field="password" placeholder="Nova senha">
+                <label class="formLabel" id="label-birthdate">Data de nascimento</label>
+                <input class="formRight" id="birthdate" type="text" name="birthdate" data-validate-field="birthdate" placeholder="dd/mm/aaaa">
+                <label class="formLabel" id="label-gender" >Gênero</label>
+                <div class="divGender">
+                    <input class="formRadio" id="gender1" type="radio" name="gender" data-validate-field="gender" value="Feminino">Feminino
+                    <input class="formRadio" id="gender2" type="radio" name="gender" data-validate-field="gender" value="Masculino">Masculino
+                    <input class="formRadio" id="gender3" type="radio" name="gender" data-validate-field="gender" value="Personalizado">Personalizado
+                    <img class="questionMark" src="imgs/query.png">
+                </div>
+                <button class="submitButton" id="facebook-register" type="submit">Cadastre-se</button>
+                <p class="textBottom">Ao clicar em cadastre-se, você concorda com nossos <span class="blue">Termos</span>, <span class="blue">Política de Dados</span> e <span class="blue">Política de Cookies</span>. Você pode receber notificações por SMS e pode cancelar isso quando quiser.</p>
+                <p class="textBottom2"><span class="blue">Criar uma página</span> para uma celebridade, banda ou empresa.</p>
+            </form>
+        </div>
+    </section>
+    <script src="js/just-validate.min.js"></script>
+    <script src="script.js" type="text/javascript"></script>    
+</body>
+</html>

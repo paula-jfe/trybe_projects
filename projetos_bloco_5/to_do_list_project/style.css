@@ -1,0 +1,74 @@
+body {
+    background-image: url(https://miro.medium.com/max/3840/1*TkU7i6Jkr9iqQCELBmzbAQ.jpeg);
+    background-size: 100%;
+    width: 80%;
+    margin: 0 auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+#main {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+ol {
+    text-align: left;
+}
+
+#listOfLis {
+    width: 70%;
+    margin: 0 auto;
+}
+
+#texto-tarefa {
+    padding: 4px;
+    width: 35%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    margin: 0 auto;
+    cursor: text;
+    border: solid 2px black;
+}
+
+.buttons {
+    background-color: rgb(51, 114, 103);
+    border: 2px solid white;
+    color: white;
+    font-weight: bold;
+    height: 35px;
+    padding: 5px;
+    width: 155px;
+    border-radius: 15px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.list {
+    text-align: left;
+    cursor: cell;
+}
+
+.hoover {
+    background-color: rgb(128,128,128);
+    text-align: left;
+}
+
+.completed {
+    text-decoration: line-through solid rgb(0, 0, 0);
+}
+
+p {
+    background-color: rgb(217, 127, 51);
+    padding: 5px;
+    width: 50%;
+    margin: 10px auto;
+    color: white;
+    font-weight: bold;
+    border-radius: 15px;
+}

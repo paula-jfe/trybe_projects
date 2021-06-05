@@ -1,0 +1,117 @@
+body {
+    background-image: url(https://live.staticflickr.com/8295/7835748388_7fcf951f58_b.jpg);
+    background-size: 100%;
+    text-align: center;
+    margin: 10% auto;
+}
+
+h1 {
+    color: darkred;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+span {
+    margin: 1%;
+}
+
+.newspaper {
+    background-color: antiquewhite;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+}
+
+.magazine1 {
+    background-color: teal;
+    color: white;
+    font-family: Verdana;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.magazine2 {
+    background-image: url(images/pink-pattern.png);
+    color: fuchsia;
+    font-family: Verdana;
+    font-weight: 900;
+}
+
+.medium {
+    font-size: 20px;
+    padding: 8px;
+    background-color: forestgreen;
+    color: white;
+}
+
+.big {
+    font-size: 30px;
+    padding: 10px;
+    background-color: yellow;
+    color: black;
+}
+
+.reallybig {
+    font-size: 40px;
+    padding: 15px;
+    background-color: deeppink;
+    color: white;
+}
+
+.rotateleft {
+    transform: rotate(-5deg);
+    background-color: darkturquoise;
+    color: black;
+}
+
+.rotateright {
+    transform: rotate(5deg);
+    background-color: darkmagenta;
+    color: white;
+}
+
+.skewleft {
+    transform: skewX(10deg);
+    background-color: crimson;
+    color: white;
+}
+
+.skewright {
+    transform: skewX(-10deg);
+    background-color: coral;
+    color: white;
+}
+
+#carta-texto {
+    padding: 4px;
+    width: 35%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    margin: 2% auto;
+    cursor: text;
+    border: solid 2px black;
+}
+
+#criar-carta {
+    background-color: orangered;
+    border: 2px solid white;
+    color: white;
+    margin: 2% auto;
+    font-weight: bold;
+    height: 35px;
+    padding: 5px;
+    width: 100px;
+    border-radius: 15px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+#carta-contador {
+    background-color: black;
+    width: 80px;
+    margin: 0 auto;
+    color: white;
+    border-radius: 5%;
+    padding: 10px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}

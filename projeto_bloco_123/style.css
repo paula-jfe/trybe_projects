@@ -1,0 +1,163 @@
+body {
+    background-color:rgb(253,251,251);
+}
+
+#titulo {
+    color: white;
+}
+
+#cabecalho {
+    background-color:rgb(0,128,0);
+    position: fixed;
+    color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    z-index: 2;
+}
+
+#menu {
+    float: right;
+    padding: 18px;
+    color: white;
+}
+
+#menu ul li {
+    display:inline;
+    padding: 18px;
+    color: white;
+}
+
+li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.tabela {
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+#titulo {
+    float: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 40px;
+    padding: 5px;
+}
+
+#licoes_a_aprender {
+    color: black;
+}
+
+#licoes_aprendidas {
+    color: black;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color:white;
+    font-weight:600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+.botao {
+    background-color:orange;
+    border-radius:5px;
+    display:block;
+    width: 25%;
+    height: 60px;
+    text-align: center;
+    padding: 10px;
+    line-height: 55px;
+    margin: auto;
+    vertical-align: top;
+}
+    
+.foto {
+    position: relative;
+    z-index: 1;
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#minha_foto {
+    border-radius: 100%;
+    border: 5px solid rgb(0,128,0);
+}
+
+article {
+    line-height: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: left;
+}
+
+aside {
+    line-height: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: right;
+}
+
+.box {
+    height: 280px;
+    width: 100%;
+    background-color: rgb(221, 158, 41);
+    vertical-align: top;
+    color: white;
+    font-weight: bold;
+}
+
+.novabox {
+    height: 280px;
+    width: 100%;
+    background-color:white;
+    vertical-align: top;
+}
+
+
+.lado-esquerdo { 
+    float:left;
+    width:60%; 
+    padding:20px;
+}
+
+.lado-direito {
+    float:right;
+    width:30%; 
+    padding:20px;
+}
+
+.lado-esquerdo-tabela { 
+    float:left;
+    width:30%; 
+    padding:20px;
+}
+
+.lado-direito-tabela {
+    float:right;
+    width:30%; 
+    padding:20px;
+}
+
+h2 {
+    clear: both;
+    color: green;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3 {
+    color: green;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#rodape {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: green;
+    font-size: 14px;
+    font-weight: bold;
+}

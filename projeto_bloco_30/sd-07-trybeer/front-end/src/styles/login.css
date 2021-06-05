@@ -1,0 +1,53 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+
+form {
+  text-align: center;
+  width: 350px;
+  position: absolute;
+  margin: auto;
+  left: 50%;
+  top: 50%;
+  min-height: 200px;
+  padding: 40px;
+  box-sizing: border-box;
+  transform: translate(-50%, -50%);
+  background: #f7fd04;
+  border-radius: 10px;
+}
+
+form input {
+  display: block;
+}
+
+button {
+  background-color: black;
+  color: #f7fd04;
+  padding: 5px;
+  border-radius: 15%;
+  transition-duration: 0.4s;
+}
+button:hover {
+  background-color: white;
+  color: black;
+}
+
+.signin-btn {
+  margin-left: 5px;
+  margin-bottom: 10px;
+
+}
+
+.registerCheckBox {
+  display: block;
+  font-size: medium;
+}
+
+.checkboxInput {
+  display: inline;
+  margin-left: 10px;
+  border-radius: 50%;
+}

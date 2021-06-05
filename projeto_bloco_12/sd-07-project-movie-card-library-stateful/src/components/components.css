@@ -1,0 +1,83 @@
+.form-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  width: 80vw;
+}
+
+form {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+button {
+  background-color: hsl(210, 100%, 74%);
+  border: 1px solid #84bbf3;
+  border-radius: 5px;
+  box-shadow: inset 1px 1px 1px 1px #bbdaf7;
+  color: white;
+  display: block;
+  font-weight: 700;
+  padding: 10px;
+}
+
+input {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  display: block;
+  height: 30px;
+  margin: 5px;
+  text-align: center;
+  width: 200px;
+}
+
+label {
+  text-align: center;
+}
+
+select {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  display: block;
+  height: 30px;
+  margin: 5px;
+  width: 200px;
+}
+
+textarea {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  display: block;
+  height: 100px;
+  margin: 5px;
+  width: 200px;
+}
+
+.search-form {
+  background-color: darkgrey;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+  margin: 10px;
+  padding: 15px;
+}
+
+.add-form {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 15px;
+}
+
+.add-form-inputs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.form-button {
+  display: block;
+}

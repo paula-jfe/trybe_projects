@@ -1,0 +1,27 @@
+.card {
+  position: relative;
+  display: inline-block;
+  margin: auto;
+  overflow: hidden;
+  width: 520px;
+  height: 350px;
+  align-items: center;
+}
+
+.card:hover {
+  opacity: 0.6;
+}
+
+img {
+  margin-top: 47px;
+  width: 20%;
+}
+
+.btn-cart {
+  display: inline-block;
+}
+
+.product-price {
+  display: inline;
+  padding: 50px;
+}
